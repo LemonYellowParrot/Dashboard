@@ -3,9 +3,9 @@ package util;
 import javax.mail.Authenticator;
 import javax.mail.PasswordAuthentication;
 
-public class Gmail extends Authenticator { //ÀÎÁõ, ¼öÇàÀ» µ½´Â class
+public class Gmail extends Authenticator { //ì¸ì¦, ìˆ˜í–‰ì„ ë•ëŠ” class
 	@Override
 	protected PasswordAuthentication getPasswordAuthentication() {
-		return new PasswordAuthentication("ljy012900", "Pami1227"); //ÀÚ½ÅÀÇ google id, ºñ¹ø. °ü¸®ÀÚ ÀÚ½ÅÀÇ ºñ¹Ğ¹øÈ£¿Í °èÁ¤ ³Ö±â.
-	} //º¸¾È¼öÁØÀÌ ³·Àº ÆäÀÌÁöÀÌ¹Ç·Î ±¸±Û °èÁ¤¿¡¼­ ·Î±×ÀÎÇÏ°Ô ¼³Á¤ÇØÁà¾ß ÇÔ.
+		return new PasswordAuthentication("ê´€ë¦¬ì id", "ê´€ë¦¬ì password"); //ìì‹ ì˜ google id, ë¹„ë²ˆ. ê´€ë¦¬ì ìì‹ ì˜ ë¹„ë°€ë²ˆí˜¸ì™€ ê³„ì • ë„£ê¸°.
+	} //ë³´ì•ˆìˆ˜ì¤€ì´ ë‚®ì€ í˜ì´ì§€ì´ë¯€ë¡œ êµ¬ê¸€ ê³„ì •ì—ì„œ ë¡œê·¸ì¸í•˜ê²Œ ì„¤ì •í•´ì¤˜ì•¼ í•¨.
 }
